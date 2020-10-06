@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class cell extends Component {
+export default class Cell extends Component {
 
     constructor(props) {
         super(props)
@@ -16,8 +16,6 @@ export default class cell extends Component {
         })
     }
 
-    
-    
     render() {
         return (
             <div className="cell" 
